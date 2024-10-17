@@ -20,7 +20,7 @@ public class AmazonBookSearchTest {
         driver = new ChromeDriver();
 
         // Increase page load timeout
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(210));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
